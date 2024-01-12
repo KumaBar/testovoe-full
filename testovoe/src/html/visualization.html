@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gudea:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/visualization.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="wrapper">>
+        <div class="container">
+            <div class="block">
+                <h1 class="block-title">Визуализация <br>почти готова!</h1>
+                <p class="block-text visualization-block-text">
+                    Прикрепи фото стены (комнаты, где будут фотообои), напиши номер
+                    телефона и жми «Получить визуализацию», мы примерим получившуюся
+                    подборку на твою стену и отправим результат на WhatsApp или Viber.
+                </p>
+                <form class="visualization-form" method="POST" action="#" enctype="multipart/form-data">
+                    <div class="visualization-form-inputs">
+                        <input type="text" name="name" placeholder="Имя" class="visualization-form-inputs-name" >
+                        <br>
+                        <input type="text" name="tel"placeholder="Телефон" class="visualization-form-inputs-tel">
+                        <br>
+                        <label class="input-file">
+                            <input type="file" name="file">		
+                            <span>Выберите фотографию</span>
+                        </label>
+                    </div>
+                    <a href="../index.html" onclick="openPopup()" class="block-button visualization-block-button" >
+                        <p class="block-button-text">Получить визуализацию</p>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/popup.js"></script>
+</html>

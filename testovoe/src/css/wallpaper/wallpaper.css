@@ -1,0 +1,198 @@
+@import url(reset.css);
+body{
+    background-image: url(../../../public/img/backgroundimg.jpg);;
+}
+.block-title{
+    color: #FFF;
+    font-family: Gudea, sans-serif;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 107.6%; /* 90.384px */
+    letter-spacing: -2.1px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.block-text{
+    color: #FFF;
+    font-family: Gudea, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.progressbar{ 
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    -webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+.progress-30{
+    padding-top: 10px;
+    width:30%;
+    background: #7D0808;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+}
+.progress-100{
+    padding-top: 10px;
+    width:100%;
+    background: #7D0808;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+}
+.selection{
+    max-width: 1112px;
+    max-height: auto;
+    background-color: #FFF;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.selection-title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.selection-title-text{
+    color: #333;
+    text-align: center;
+    font-family: Gudea,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+.selection-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.selection-child{
+    max-width: 243px;
+    max-height: 180px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 60px;
+}
+.selection-child-img{
+    background-size: cover;
+    max-width: 243px;
+    width: auto;
+    min-width: 243px;
+    height: 180px;
+}
+.img-living_room{
+    background-image: url(../../../public/img-selection/selection-1.png);
+}
+.selection-child-text{
+    text-align: center;
+    margin-top: 5px;
+    color: #333;
+    font-family: Gudea,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+.selection-check{
+    margin: 0 auto;
+    position: relative;
+    top:-15px;
+    border-style:solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-width: 4px;
+    border-color: #333;
+    background-color: #FFF;
+}
+.selection-check.selected{
+background-color: #333;
+}
+.selection-next_button{
+    display: block;
+    width: 119px;
+    height: 46px;
+    border-radius: 10px;
+    background: #ACACAC;
+    color: #FFF;
+    font-family: Gudea,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-color: #ACACAC;
+    text-decoration: none;
+
+    
+}
+.selection-next_button-text{
+    text-align: center;
+    line-height: 45px;
+}
+@media screen and (max-width: 1300px) {
+    .block-title{
+        font-size: 54px;
+    }
+    .container{
+        max-width: 912px;
+        margin:0 auto;
+        padding: 94px 0;
+    }
+    .selection-child{
+        margin-top: 60px;
+        flex-basis: 70%;
+    }
+    .selection-next_button{
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .block-title{
+        font-size: 36px;
+        text-align: center;
+    }
+    .block-text{
+        font-size: 18px;
+        text-align: center;
+    }
+    .container{
+        max-width: 612px;
+        margin:0 auto;
+        padding: 94px 0;
+    }
+    .block-button{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .block-button-text{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .selection-box{
+        align-items: center;
+        justify-content: center;
+    }
+    .selection-child{
+        flex-basis: 100%;
+
+    }
+}

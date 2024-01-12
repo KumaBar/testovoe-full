@@ -1,0 +1,49 @@
+@media screen and (max-width: 1300px) {
+    .block-title{
+        font-size: 54px;
+    }
+    .container{
+        max-width: 912px;
+        margin:0 auto;
+        padding: 94px 0;
+    }
+    .selection-child{
+        margin-top: 60px;
+        flex-basis: 70%;
+    }
+    .selection-next_button{
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .block-title{
+        font-size: 36px;
+        text-align: center;
+    }
+    .block-text{
+        font-size: 18px;
+        text-align: center;
+    }
+    .container{
+        max-width: 612px;
+        margin:0 auto;
+        padding: 94px 0;
+    }
+    .block-button{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .block-button-text{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .selection-box{
+        align-items: center;
+        justify-content: center;
+    }
+    .selection-child{
+        flex-basis: 100%;
+
+    }
+}
